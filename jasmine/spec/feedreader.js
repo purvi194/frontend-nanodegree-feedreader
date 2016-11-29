@@ -64,7 +64,6 @@ $(function() {
         });
 
         it('has an entry in feed container', function(done) {
-            /*making sure my .entry h2 has content in it*/
             entry = $('.feed').contents().find('.entry').size();
             expect(entry).not.toBe(0);
             done();
