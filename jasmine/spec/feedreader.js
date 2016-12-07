@@ -78,7 +78,7 @@ $(function() {
 
         beforeEach(function(done) {
             loadFeed(1, function() {
-                feed = ('.feed').html();
+                feed = $('.feed').html();
                 done();
             });
         });
